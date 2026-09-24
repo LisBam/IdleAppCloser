@@ -114,3 +114,7 @@ powershell -ExecutionPolicy Bypass -File .\Build.ps1
 
 - Windows 7 / 8 / 8.1 / 10 / 11
 - .NET Framework 4.x（Win7 以上系统自带，无需额外安装）
+
+## 许可证
+
+[MIT](LICENSE)
