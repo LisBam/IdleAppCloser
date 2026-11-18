@@ -22,3 +22,43 @@ CloseIdleApp_2.ps1
 # ---------------------------------------------------------------- Windows
 Thumbs.db
 desktop.ini
+
+# Local AI and IDE configuration; retained only on developer machines.
+/.agents/
+/.claude/
+/.codex/
+/.dsh/
+/.trellis/
+/.idea/
+/.vscode/
+/AGENTS.md
+/CLAUDE.md
+/项目专属AGENTS.md
+
+# Personal environment, credentials, logs, and temporary files.
+.env
+.env.*
+!.env.example
+!.env.template
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+*.keystore
+*.log
+*.log.gz
+*.tmp
+*.bak
+~$*
+__pycache__/
+*.pyc
+/.repo-privacy-backup/
+/临时反馈文档.md
+
+# .NET build intermediates and machine-local Visual Studio state.
+/.vs/
+[Bb]in/
+[Oo]bj/
+*.user
+*.suo
